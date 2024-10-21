@@ -31,15 +31,14 @@ Complete Exercise 2 in the space below:
 Complete Exercise 3 in the space below:
 */
 
-const foods = ['pizza', 'cheeseburger'];
-foods.unshift('taco');
+// const foods = ['pizza', 'cheeseburger'];
+// foods.unshift('taco');
 
 
-console.log('Exercise 3 result:', foods);
+// console.log('Exercise 3 result:', foods);
 
 
-/*
-Exercise 4: Access an array element
+/* Exercise 4: Access an array element--------------------------------
 
 1) Retrieve the 'pizza' string from the array based on its position (index) in
    the array.  
@@ -49,9 +48,10 @@ Exercise 4: Access an array element
 Complete Exercise 4 in the space below:
 */
 
+const foods = ['pizza', 'cheeseburger'];
+const favFood = foods.shift(0);
 
-
-// console.log('Exercise 4 result:', favFood);
+console.log('Exercise 4 result:', favFood);
 
 
 /*
