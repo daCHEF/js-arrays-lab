@@ -90,14 +90,13 @@ Complete Exercise 6 in the space below:
 Complete Exercise 7 in the space below:
 */
 
-const yummy = ['pizza', 'cheeseburger', 'french fries', 'chips'];
-const removed = yummy.splice(0, 4, 'sushi', 'cupcake')
+// const yummy = ['pizza', 'cheeseburger', 'french fries', 'chips'];
+// const removed = yummy.splice(0, 4, 'sushi', 'cupcake')
 
-console.log('Exercise 7 result:', yummy);
+// console.log('Exercise 7 result:', yummy);
 
 
-/*
-Exercise 8: Finding an index
+/* Exercise 8: Finding an index---------------------------------------
 
 1) Using the `indexOf()` method, find the index of the string 'tofu' in the 
    `foods` array. 
@@ -107,9 +106,10 @@ Exercise 8: Finding an index
 Complete Exercise 8 in the space below:
 */
 
+const foods = ['pizza', 'glizzys', 'tofu', 'wings'];
+soyIdx = foods.indexOf('tofu');
 
-
-// console.log('Exercise 8 result:', soyIdx);
+console.log('Exercise 8 result:', soyIdx);
 
 
 /*
