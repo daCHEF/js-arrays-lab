@@ -74,16 +74,15 @@ Complete Exercise 5 in the space below:
 Complete Exercise 6 in the space below:
 */
 
-const foods = ['pizza', 'cheeseburger'];
-const removed = foods.splice(0, 1, 'sushi', 'cupcake')
+// const foods = ['pizza', 'cheeseburger'];
+// const removed = foods.splice(0, 1, 'sushi', 'cupcake')
 
-console.log('Exercise 6 result:', foods);
+// console.log('Exercise 6 result:', foods);
 
 
-/*
-Exercise 7: Using the `slice()` method
+/* Exercise 7: Using the `slice()` method-----------------------------
 
-1) Use the `slice()` method to create a new array that contains 'sushi' and 
+1) Use the 'slice()' method to create a new array that contains 'sushi' and 
    'cupcake'.
 
 2) Assign it to a variable named `yummy`.
@@ -91,9 +90,10 @@ Exercise 7: Using the `slice()` method
 Complete Exercise 7 in the space below:
 */
 
+const yummy = ['pizza', 'cheeseburger', 'french fries', 'chips'];
+const removed = yummy.splice(0, 4, 'sushi', 'cupcake')
 
-
-// console.log('Exercise 7 result:', yummy);
+console.log('Exercise 7 result:', yummy);
 
 
 /*
