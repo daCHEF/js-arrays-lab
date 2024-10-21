@@ -125,14 +125,13 @@ Note: The final result should log as:
 Complete Exercise 9 in the space below:
 */
 
-const yummy = ['taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger'];
-const allFoods = yummy.join(' -> ');
+// const yummy = ['taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger'];
+// const allFoods = yummy.join(' -> ');
 
-console.log('Exercise 9 result:', allFoods);
+// console.log('Exercise 9 result:', allFoods);
 
 
-/*
-Exercise 10: Check for an element
+/* Exercise 10: Check for an element----------------------------------
 
 1) Using the .includes() method, check if the 'foods' array contains the string
    'soup'.
@@ -142,9 +141,10 @@ Exercise 10: Check for an element
 Complete Exercise 10 in the space below:
 */
 
+const foods = ['taco', 'sushi', 'cupcake', 'tofu', 'soup'];
+const hasSoup = foods.includes('soup');
 
-
-// console.log('Exercise 10 result:', hasSoup);
+console.log('Exercise 10 result:', hasSoup);
 
 
 /*
