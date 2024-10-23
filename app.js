@@ -19,7 +19,7 @@ Note: 'pizza' should be the first item in the array, followed by 'cheeseburger'.
 Complete Exercise 2 in the space below:
 */
 
-foods => ['pizza', 'cheeseburger'];
+foods.push('pizza', 'cheeseburger');
 
 console.log('Exercise 2 result:', foods);
 
@@ -31,7 +31,6 @@ console.log('Exercise 2 result:', foods);
 Complete Exercise 3 in the space below:
 */
 
-foods => ['pizza', 'cheeseburger'];
 foods.unshift('taco');
 
 
@@ -48,8 +47,7 @@ console.log('Exercise 3 result:', foods);
 Complete Exercise 4 in the space below:
 */
 
-foods => ['pizza', 'cheeseburger'];
-const favFood = foods.shift(0);
+const favFood = foods[1];
 
 console.log('Exercise 4 result:', favFood);
 
@@ -61,8 +59,7 @@ console.log('Exercise 4 result:', favFood);
 Complete Exercise 5 in the space below:
 */
 
-foods => ['pizza', 'cheeseburger'];
-foods.splice(1, 0, 'tofu');
+foods.splice(2, 0, 'tofu');
 
 console.log('Exercise 5 result:', foods);
 
@@ -74,7 +71,6 @@ console.log('Exercise 5 result:', foods);
 Complete Exercise 6 in the space below:
 */
 
-foods => ['pizza', 'cheeseburger'];
 const removed = foods.splice(0, 1, 'sushi', 'cupcake')
 
 console.log('Exercise 6 result:', foods);
@@ -90,8 +86,7 @@ console.log('Exercise 6 result:', foods);
 Complete Exercise 7 in the space below:
 */
 
-const yummy = ['pizza', 'cheeseburger', 'french fries', 'chips'];
-removed => yummy.splice(0, 4, 'sushi', 'cupcake')
+const yummy = foods.splice(0, 4, 'sushi', 'cupcake')
 
 console.log('Exercise 7 result:', yummy);
 
