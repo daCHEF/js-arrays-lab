@@ -101,7 +101,7 @@ console.log('Exercise 7 result:', yummy);
 Complete Exercise 8 in the space below:
 */
 
-foods => ['pizza', 'glizzys', 'tofu', 'wings'];
+foods = ['pizza', 'glizzys', 'tofu', 'wings'];
 soyIdx = foods.indexOf('tofu');
 
 console.log('Exercise 8 result:', soyIdx);
@@ -120,7 +120,7 @@ Note: The final result should log as:
 Complete Exercise 9 in the space below:
 */
 
-yummy => ['taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger'];
+yummy = ['taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger'];
 const allFoods = yummy.join(' -> ');
 
 console.log('Exercise 9 result:', allFoods);
@@ -136,7 +136,7 @@ console.log('Exercise 9 result:', allFoods);
 Complete Exercise 10 in the space below:
 */
 
-foods => ['taco', 'sushi', 'cupcake', 'tofu', 'soup'];
+foods = ['taco', 'sushi', 'cupcake', 'tofu', 'soup'];
 const hasSoup = foods.includes('soup');
 
 console.log('Exercise 10 result:', hasSoup);
@@ -182,7 +182,7 @@ console.log('Exercise 11 result:', oddNums);
 Complete Exercise 12 in the space below:
 */
 
-nums => [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 const fizz = [];
 const buzz = [];
 const fizzbuzz = [];
